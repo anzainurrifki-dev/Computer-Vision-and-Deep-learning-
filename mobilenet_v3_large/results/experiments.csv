@@ -1,0 +1,4 @@
+architecture,mode,best_val_accuracy,best_epoch,epochs_to_90_percent,training_seconds,checkpoint,trainable_params,total_params,epochs_run
+mobilenet_v3_large,feature,1.0,1,1,15.882336760000044,models/feature.pth,1232642,4204594,10
+mobilenet_v3_large,partial,1.0,1,1,16.02003977100003,models/partial.pth,2185522,4204594,10
+mobilenet_v3_large,scratch,0.5,1,,18.277407821999986,models/scratch.pth,4204594,4204594,10
